@@ -1,0 +1,77 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+ 
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@welldone-software/why-did-you-render": "^6.1.1",
+    "@hookform/resolvers": "^2.9.11",
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "javascript-time-ago": "^2.5.9",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-clap-button": "^1.2.12",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-hide-on-scroll": "^1.1.4",
+    "react-icons": "^4.8.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loading-skeleton": "^3.3.1",
+    "react-moment": "^1.1.1",
+    "react-quill": "^2.0.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^4.3.1",
+    "react-spinners": "^0.13.8",
+    "react-text-truncate": "^0.19.0",
+    "react-time-ago": "^7.2.1",
+    "react-toastify": "^8.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-tooltip": "^5.13.2",
+    "recharts": "^2.0.9",
+    "socket.io-client": "^4.4.1",
+    "styled-components": "^5.3.0",
+    "use-debounce": "^9.0.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.51.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  }
+}

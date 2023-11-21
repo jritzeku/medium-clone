@@ -1,0 +1,161 @@
+{"level":"error","message":"Not found - /api/storyd","timestamp":"2023-10-19T15:50:23.297Z"}
+{"level":"error","message":"getCacheInstance is not defined","timestamp":"2023-10-19T17:18:10.914Z"}
+{"level":"error","message":"Unexpected non-whitespace character after JSON at position 279","timestamp":"2023-10-20T15:45:50.277Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-10-20T15:47:24.955Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-10-20T15:47:56.974Z"}
+{"level":"error","message":"Story validation failed: thumbnailImg: thumbnail of story is required","timestamp":"2023-10-20T15:48:05.322Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T15:44:01.854Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T15:44:01.872Z"}
+{"level":"error","message":"User already exists","timestamp":"2023-11-08T16:12:09.631Z"}
+{"level":"error","message":"Cannot read properties of null (reading '_id')","timestamp":"2023-11-08T16:14:57.428Z"}
+{"level":"error","message":"User not found","timestamp":"2023-11-08T16:14:57.431Z"}
+{"level":"error","message":"User not found","timestamp":"2023-11-08T16:14:57.903Z"}
+{"level":"error","message":"User not found","timestamp":"2023-11-08T16:15:11.322Z"}
+{"level":"error","message":"Cannot read properties of null (reading '_id')","timestamp":"2023-11-08T16:15:11.323Z"}
+{"level":"error","message":"User not found","timestamp":"2023-11-08T16:15:11.881Z"}
+{"level":"error","message":"User already exists","timestamp":"2023-11-08T16:21:54.750Z"}
+{"level":"error","message":"User already exists","timestamp":"2023-11-08T16:23:17.861Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:27:13.527Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:27:13.534Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:27:13.537Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:27:13.543Z"}
+{"level":"error","message":"User already exists","timestamp":"2023-11-08T16:28:37.963Z"}
+{"level":"error","message":"Cannot read properties of null (reading '_id')","timestamp":"2023-11-08T16:29:59.883Z"}
+{"level":"error","message":"User not found","timestamp":"2023-11-08T16:29:59.888Z"}
+{"level":"error","message":"User not found","timestamp":"2023-11-08T16:29:59.950Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:33:12.122Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:33:12.125Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:33:12.127Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:33:12.129Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:33:19.686Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:33:28.566Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:33:28.573Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:36:26.109Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:37:07.077Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:37:07.089Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:37:35.282Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:37:42.423Z"}
+{"level":"error","message":"Not found - /main.55e4d9da8c5c62b1f70c.hot-update.json","timestamp":"2023-11-08T16:44:15.840Z"}
+{"level":"error","message":"User already exists","timestamp":"2023-11-08T16:44:42.796Z"}
+{"level":"error","message":"User already exists","timestamp":"2023-11-08T16:52:41.057Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:54:13.150Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:54:13.164Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:54:13.173Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:54:13.176Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:54:49.533Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:54:49.546Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:54:49.547Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:54:49.551Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:56:50.190Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:56:50.200Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:56:50.203Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:56:50.207Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:57:15.409Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:57:15.421Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:57:15.426Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:57:15.443Z"}
+{"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-08T16:57:19.843Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"Story\"","timestamp":"2023-11-08T16:57:19.854Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"user\" for model \"List\"","timestamp":"2023-11-08T16:57:19.856Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T16:57:19.860Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T18:35:04.148Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T18:35:07.722Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T18:35:09.273Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T18:35:10.694Z"}
+{"level":"error","message":"Comment not found","timestamp":"2023-11-08T19:48:12.123Z"}
+{"level":"error","message":"Comment not found","timestamp":"2023-11-08T19:54:07.184Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T20:06:18.790Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T20:06:18.798Z"}
+{"level":"error","message":"Invalid email or password was entered.","timestamp":"2023-11-08T20:50:36.944Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T20:52:32.473Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-08T20:52:32.486Z"}
+{"level":"error","message":"Not found - /main.159296113482a9817df6.hot-update.json","timestamp":"2023-11-09T00:30:28.270Z"}
+{"level":"error","message":"Not found - /main.a1ab9dc22a3361ea0052.hot-update.json","timestamp":"2023-11-09T01:06:34.432Z"}
+{"level":"error","message":"Not found - /main.2a20ced01214e55be403.hot-update.json","timestamp":"2023-11-09T01:16:39.186Z"}
+{"level":"error","message":"Not found - /main.2a20ced01214e55be403.hot-update.json","timestamp":"2023-11-09T01:16:44.946Z"}
+{"level":"error","message":"Not found - /main.73714a36fcdc4e55867f.hot-update.json","timestamp":"2023-11-09T01:52:36.587Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-09T15:53:04.235Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-09T15:53:04.247Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-09T15:55:01.404Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-09T15:55:01.414Z"}
+{"level":"error","message":"Not found - /main.1c88a316b14ede972827.hot-update.json","timestamp":"2023-11-09T16:13:09.176Z"}
+{"level":"error","message":"Not found - /main.1c88a316b14ede972827.hot-update.json","timestamp":"2023-11-09T16:13:13.226Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T16:13:14.054Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'user')","timestamp":"2023-11-09T16:13:14.117Z"}
+{"level":"error","message":"Invalid email or password was entered.","timestamp":"2023-11-09T16:27:05.378Z"}
+{"level":"error","message":"Invalid email or password was entered.","timestamp":"2023-11-09T16:27:18.782Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T16:52:15.238Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'user')","timestamp":"2023-11-09T16:52:15.320Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T16:52:20.236Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'user')","timestamp":"2023-11-09T16:52:20.295Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T16:52:48.317Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T16:52:52.266Z"}
+{"level":"error","message":"Not found - /main.590d407fcb0994c24de9.hot-update.json","timestamp":"2023-11-09T17:01:00.573Z"}
+{"level":"error","message":"Not found - /main.54e09a56c7ea465f12b4.hot-update.json","timestamp":"2023-11-09T17:01:00.578Z"}
+{"level":"error","message":"Not found - /main.590d407fcb0994c24de9.hot-update.json","timestamp":"2023-11-09T17:01:00.579Z"}
+{"level":"error","message":"Not found - /main.590d407fcb0994c24de9.hot-update.json","timestamp":"2023-11-09T17:01:00.583Z"}
+{"level":"error","message":"Not found - /main.590d407fcb0994c24de9.hot-update.json","timestamp":"2023-11-09T17:01:00.611Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:01:04.316Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:01:20.302Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:01:36.489Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:01:41.363Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:01:46.334Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:01:55.270Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:02:05.328Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:05:53.696Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:05.970Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:14.723Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:19.192Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:26.378Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:32.964Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:36.606Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:38.511Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:46.580Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:06:53.818Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:02.908Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:15.128Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:21.142Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:25.082Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:31.339Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:39.277Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:49.963Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:07:52.257Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:08:00.181Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:08:02.671Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:08:08.351Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:08:14.946Z"}
+{"level":"error","message":"Not found - /main.ff5beb28601ed587b847.hot-update.json","timestamp":"2023-11-09T17:28:21.171Z"}
+{"level":"error","message":"Not found - /main.ff5beb28601ed587b847.hot-update.json","timestamp":"2023-11-09T17:28:24.373Z"}
+{"level":"error","message":"Not found - /main.ff5beb28601ed587b847.hot-update.json","timestamp":"2023-11-09T17:28:58.040Z"}
+{"level":"error","message":"Not found - /main.ff5beb28601ed587b847.hot-update.json","timestamp":"2023-11-09T17:29:04.534Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:29:05.366Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:32:23.505Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:33:28.927Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists/652d80311d049857e2174f8c","timestamp":"2023-11-09T17:33:32.512Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:33:32.933Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:21.084Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:21.102Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:35:21.483Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:26.443Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:40.648Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:47.605Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:48.935Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:52.617Z"}
+{"level":"error","message":"story not found.","timestamp":"2023-11-09T17:35:52.758Z"}
+{"level":"error","message":"Not found - /api/list/getSavedLists","timestamp":"2023-11-09T17:35:52.953Z"}
+{"level":"error","message":"Not found - /main.c26a83bd403ab1fdffc2.hot-update.json","timestamp":"2023-11-11T17:55:13.120Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T17:58:56.525Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T17:58:58.578Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:02:38.579Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:02:40.626Z"}
+{"level":"error","message":"You already follow this user","timestamp":"2023-11-11T18:21:28.359Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:26:25.756Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:26:25.766Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:27:24.946Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:27:27.048Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:30:58.610Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-11T18:31:01.368Z"}
+{"level":"error","message":"Not found - /main.859b02f8326fa7ed41e4.hot-update.json","timestamp":"2023-11-15T01:44:43.265Z"}
+{"level":"error","message":"Invalid email or password was entered.","timestamp":"2023-11-15T01:44:46.964Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-20T02:58:13.801Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-20T02:58:13.820Z"}

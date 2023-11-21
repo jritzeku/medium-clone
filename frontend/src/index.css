@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+iframe#webpack-dev-server-client-overlay{display:none!important}
+
+
+/*
+
+NOTES: 
+
+-BUG - React: ResizeObserver loop completed with undelivered notifications
+    ->Fix: add following to css file
+
+iframe#webpack-dev-server-client-overlay{display:none!important}
+*/
