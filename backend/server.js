@@ -15,8 +15,10 @@ const fs = require('fs')
 const path = require('path')
 const morgan = require('morgan')
 
+const ___dirname = path.resolve()
+
 const apiLogs = fs.createWriteStream(
-  path.join(__dirname, 'logs', 'apiLogs.log'),
+  path.join(___dirname, 'logs', 'apiLogs.log'),
   {
     flags: 'a',
   }
@@ -48,6 +50,20 @@ app.use('/api/list', listRoutes)
 app.use('/api/draft', draftRoutes)
 app.use('/api/notification', notificationRoutes)
 
+if (process.env.NODE_ENV === 'production') {
+  //set static folder
+  app.use(express.static(path.join(___dirname, '/frontend/build')))
+
+  //any route that is not API will be redirected to index.html
+  app.get('*', (req, res) =>
+    res.sendFile(path.resolve(___dirname, 'frontend', 'build', 'index.html'))
+  )
+} else {
+  // app.get('/', (req, res) => {
+  //   res.send('API is running....')
+  // })
+}
+
 app.use(notFoundMw)
 app.use(errorHandlerMw)
 
@@ -58,5 +74,3 @@ socketServer.registerSocketServer(server)
 const PORT = process.env.PORT || 5000
 
 server.listen(PORT, () => console.log(`Listening on port ${PORT}`))
-
- 

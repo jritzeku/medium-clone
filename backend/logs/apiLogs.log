@@ -9578,3 +9578,13 @@ GET /api/user/652d80311d049857e2174f84 304 - - 141.532 ms
 GET /api/story/getUserStories/652d80311d049857e2174f84 304 - - 140.921 ms
 GET /api/list/getUserLists/652d80311d049857e2174f84 200 29375 - 140.437 ms
 GET /api/list/getSavedLists 304 - - 215.886 ms
+GET /api/user/652d80311d049857e2174f84 304 - - 423.494 ms
+GET /api/notification/652d80311d049857e2174f84 201 27331 - 464.377 ms
+GET /api/user/652d80311d049857e2174f84 304 - - 113.935 ms
+GET /api/list/getMyLists 304 - - 235.059 ms
+GET /api/story?keyword= 304 - - 344.080 ms
+GET /api/list/getMyLists 304 - - 278.404 ms
+GET / 500 336 - 28.190 ms
+GET /favicon.ico 500 336 - 3.024 ms
+GET / 500 336 - 12.795 ms
+GET /favicon.ico 500 336 - 1.785 ms
