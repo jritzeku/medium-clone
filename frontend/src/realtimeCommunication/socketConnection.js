@@ -17,7 +17,7 @@ export const connectWithSocketServer = (userAuth) => {
 
   socket.on('connect', () => {
     //   console.log('successfully connected with socket.io server')
-  })
+})
 
   socket.on('notification', (data) => {
     const { notification } = data
