@@ -9,7 +9,7 @@ let socket = null
 export const connectWithSocketServer = (userAuth) => {
   const jwtToken = userAuth?.token
 
-  socket = io('https://medium-clone-cxni.onrender.com', {
+  socket = io(process.env.BACKEND_URL, {
     auth: {
       token: jwtToken,
     },
@@ -17,7 +17,7 @@ export const connectWithSocketServer = (userAuth) => {
 
   socket.on('connect', () => {
     //   console.log('successfully connected with socket.io server')
-})
+  })
 
   socket.on('notification', (data) => {
     const { notification } = data

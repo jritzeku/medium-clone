@@ -5,3 +5,8 @@
 {"level":"error","message":"ENOENT: no such file or directory, stat '/Users/jigmeritzekura/Desktop/JS_FullStack/PORTFOLIO/PRODUCTION/medium-clone/frontend/build/index.html'","timestamp":"2023-11-21T02:34:04.459Z"}
 {"level":"error","message":"ENOENT: no such file or directory, stat '/Users/jigmeritzekura/Desktop/JS_FullStack/PORTFOLIO/PRODUCTION/medium-clone/frontend/build/index.html'","timestamp":"2023-11-21T02:34:04.521Z"}
 {"level":"error","message":"Not found - /main.4e0a27f7b29a808d8c79.hot-update.json","timestamp":"2023-11-21T17:27:36.963Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-25T22:03:19.082Z"}
+{"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-25T22:03:19.540Z"}
+{"level":"error","message":"You must first follow this user in order to unfollow.","timestamp":"2023-11-25T22:06:27.762Z"}
+{"level":"error","message":"You must first follow this user in order to unfollow.","timestamp":"2023-11-25T22:06:30.584Z"}
+{"level":"error","message":"Clap validation failed: clapsByUser: Path `clapsByUser` (11) is more than maximum allowed value (10).","timestamp":"2023-11-25T22:40:50.501Z"}

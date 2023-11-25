@@ -76,7 +76,7 @@ const Profile = ({ match }) => {
   }
 
   useEffect(() => {
-    if (userAuth?._id === id) {
+    if (userAuth?._id === id && !topics.includes('Saved Lists')) {
       topics.push('Saved Lists')
     }
 
