@@ -4,3 +4,4 @@
 {"level":"error","message":"ENOENT: no such file or directory, stat '/Users/jigmeritzekura/Desktop/JS_FullStack/PORTFOLIO/PRODUCTION/medium-clone/backend/frontend/build/index.html'","timestamp":"2023-11-21T01:59:18.395Z"}
 {"level":"error","message":"ENOENT: no such file or directory, stat '/Users/jigmeritzekura/Desktop/JS_FullStack/PORTFOLIO/PRODUCTION/medium-clone/frontend/build/index.html'","timestamp":"2023-11-21T02:34:04.459Z"}
 {"level":"error","message":"ENOENT: no such file or directory, stat '/Users/jigmeritzekura/Desktop/JS_FullStack/PORTFOLIO/PRODUCTION/medium-clone/frontend/build/index.html'","timestamp":"2023-11-21T02:34:04.521Z"}
+{"level":"error","message":"Not found - /main.4e0a27f7b29a808d8c79.hot-update.json","timestamp":"2023-11-21T17:27:36.963Z"}
