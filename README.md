@@ -16,51 +16,39 @@ https://medium-clone-cxni.onrender.com
 
 -All users(members)
 
-----------------------------------------------------------------
+    ->Register
+    ->Login
 
-- [x] Register
-- [x] Login
-    &nbsp;
+    ->View all stories
+    ->View recommended stories
+    ->View filtered stories(based on search criteria)
 
-- [x] View all stories
-- [x] View recommended stories
-- [x] View filtered stories(based on search criteria)
-    &nbsp;
+    ->View/publish/edit/delete story
+    ->Save story as draft
+    ->Publish story from existing draft
 
-- [x] View/publish/edit/delete story
-- [x] Save story as draft
-- [x] Publish story from existing draft
-    &nbsp;
+    ->Add/edit/delete comment
+    ->Reply to comment (should be nested)
 
-- [x] Add/edit/delete comment
-- [x] Reply to comment (should be nested)
-    &nbsp;
+    ->Add/remove claps to story
+    ->Prevent inflating own stats; cant clap or increment views/reads on own story
 
-- [x] Add/remove claps to story
-- [x] Prevent inflating own stats; cant clap or increment views/reads on own story
-    &nbsp;
+    ->Follow/ unfollow user
+    ->Subscribe/unsubscribe from topics/tags
 
-- [x] Follow/ unfollow user
-- [x] Subscribe/unsubscribe from topics/tags
-    &nbsp;
+    -> View/edit profile
 
-- [x] View/edit profile
-    &nbsp;
+    ->View/create/edit/delete list
+    ->Save story to list
+    ->Save other user's list
 
-- [x] View/create/edit/delete list
-- [x] Save story to list
-- [x] Save other user's list
-    &nbsp;
+    ->View statistics on claps/views/stories
+    ->Ability to toggle between stat type as well as month
+    ->Ability to adjust y-axis max/range
 
-- [x] View statistics on claps/views/stories
-- [x] Ability to toggle between stat type as well as month
-- [x] Ability to adjust y-axis max/range
-    &nbsp;
-
-- [x] Real-time notifications
-- [x] View notifications
-- [x] Mark notification(s) as read
-----------------------------------------------------------------
+    ->Real-time notifications
+    ->View notifications
+    ->Mark notification(s) as read
 
 ## How to run locally
 
