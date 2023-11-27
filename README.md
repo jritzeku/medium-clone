@@ -84,6 +84,11 @@ https://medium-clone-cxni.onrender.com
 
         NODE_ENV= 'development'
 
+2.1 Create .env file in frontend 
+
+	 	BACKEND_URL='http://localhost:5001'
+		
+
 3.  Install dependencies.
 
     > 'npm i' //in root folder,
