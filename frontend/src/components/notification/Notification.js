@@ -25,10 +25,13 @@ const Notification = ({
       setResourcePath(`/profile/${notification?.user?._id.toString()}`)
     }
   }, [resourcePath])
-
+ 
   return (
-    <Link to={resourcePath}>
-      <div className='flex items-center gap-2 cursor-pointer hover:bg-gray-100 '>
+    <>
+      <div
+        onClick={() => markNotificationReadHandler(notification?._id)}
+        className='flex items-center gap-2 cursor-pointer hover:bg-gray-100 '
+      >
         <div className='hidden md:block'>
           <img
             src={notification?.user?.image}
@@ -54,32 +57,32 @@ const Notification = ({
                 </p>
               ))}
           </div>
-
-          <div className='flex items-center gap-4 pt-4'>
-            <p>
-              <ReactTimeAgo
-                date={new Date(notification.createdAt)}
-                locale='en-US'
-                timeStyle='round-minute'
-              />
-            </p>
-
-            {notification.wasRead === false ? (
-              <p
-                onClick={() => markNotificationReadHandler(notification?._id)}
-                className='text-[12px] text-green-700   pl-2 cursor-pointer hover:brightness-75 '
-              >
-                Mark as read
-              </p>
-            ) : (
-              <p className='text-[12px] text-gray-600  pl-2  cursor-pointer hover:brightness-75 '>
-                Already read
-              </p>
-            )}
-          </div>
         </div>
       </div>
-    </Link>
+
+      <div className='flex items-center gap-4 pt-4'>
+        <p>
+          <ReactTimeAgo
+            date={new Date(notification.createdAt)}
+            locale='en-US'
+            timeStyle='round-minute'
+          />
+        </p>
+
+        {notification.wasRead === false ? (
+          <p
+            onClick={() => markNotificationReadHandler(notification?._id)}
+            className='text-[12px] text-green-700   pl-2 cursor-pointer hover:brightness-75 '
+          >
+            Mark as read
+          </p>
+        ) : (
+          <p className='text-[12px] text-gray-600  pl-2  cursor-pointer hover:brightness-75 '>
+            Already read
+          </p>
+        )}
+      </div>
+    </>
   )
 }
 
