@@ -1,9 +1,11 @@
 <h1 align="center">medium-clone</h1>
 
 ## DEMO!!!
- 
-A blog application containing most of the core functionalities as https://medium.com.
-    &nbsp;
+
+A blog application containing most of the core functionalities as https://medium.com. 
+ &nbsp;
+This app is meant for learning/educational purposes only.
+ &nbsp;
 This should cover most of the features/use cases.
 
 https://www.youtube.com/watch?v=YlwLhb7eEYg
@@ -18,48 +20,47 @@ https://medium-clone-cxni.onrender.com
 
 - [x] Register
 - [x] Login
-<br>
+      <br>
 
 - [x] View all stories
 - [x] View recommended stories
 - [x] View filtered stories(based on search criteria)
-<br>
+      <br>
 
 - [x] View/publish/edit/delete story
 - [x] Save story as draft
 - [x] Publish story from existing draft
-<br>
+      <br>
 
 - [x] Add/edit/delete comment
 - [x] Reply to comment (should be nested)
-<br>
+      <br>
 
 - [x] Add/remove claps to story
 - [x] Prevent inflating own stats; cant clap or increment views/reads on own story
-<br>
+      <br>
 
 - [x] Follow/ unfollow user
 - [x] Subscribe/unsubscribe from topics/tags
-<br>
+      <br>
 
 - [x] View/edit profile
-<br>
+      <br>
 
 - [x] View/create/edit/delete list
 - [x] Save story to list
 - [x] Save other user's list
-<br>
+      <br>
 
 - [x] View statistics on claps/views/stories
 - [x] Ability to toggle between stat type as well as month
 - [x] Ability to adjust y-axis max/range
-<br>
+      <br>
 
- 
 - [x] Real-time notifications
 - [x] View notifications
 - [x] Mark notification(s) as read
-- [x] Notifications categorized 
+- [x] Notifications categorized
 
 ## How to run locally
 
