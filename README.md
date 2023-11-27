@@ -2,6 +2,7 @@
 
 ## DEMO!!!
 
+A blog application containing most of the core functionalities as Medium. 
 This should cover most of the features/use cases.
 
 https://www.youtube.com/watch?v=YlwLhb7eEYg
