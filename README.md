@@ -1,8 +1,8 @@
 <h1 align="center">medium-clone</h1>
 
 ## DEMO!!!
-
-A blog application containing most of the core functionalities as medium.com.
+ 
+A blog application containing most of the core functionalities as https://medium.com.
     &nbsp;
 This should cover most of the features/use cases.
 
