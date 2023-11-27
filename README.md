@@ -1,6 +1,4 @@
-<p align="center" >
-medium-clone application
-</p>
+<h1 align="center">medium-clone</h1>
 
 ## DEMO!!!
 
