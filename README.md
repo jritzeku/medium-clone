@@ -1,4 +1,6 @@
-# medium-clone application
+<p align="center" >
+medium-clone application
+</p>
 
 ## DEMO!!!
 
@@ -14,84 +16,99 @@ https://medium-clone-cxni.onrender.com
 
 -All users(members)
 
-    ->Register
-    ->Login
+----------------------------------------------------------------
 
-    ->View all stories
-    ->View recommended stories
-    ->View filtered stories(based on search criteria)
+- [x] Register
+- [x] Login
+    &nbsp;
 
-    ->View/publish/edit/delete story
-    ->Save story as draft
-    ->Publish story from existing draft
+- [x] View all stories
+- [x] View recommended stories
+- [x] View filtered stories(based on search criteria)
+    &nbsp;
 
-    ->Add/edit/delete comment
-    ->Reply to comment (should be nested)
+- [x] View/publish/edit/delete story
+- [x] Save story as draft
+- [x] Publish story from existing draft
+    &nbsp;
 
-    ->Add/remove claps to story
-	->Prevent inflating own stats; cant clap or increment views/reads on own story
+- [x] Add/edit/delete comment
+- [x] Reply to comment (should be nested)
+    &nbsp;
 
-    ->Follow/ unfollow user
-    ->Subscribe/unsubscribe from topics/tags
+- [x] Add/remove claps to story
+- [x] Prevent inflating own stats; cant clap or increment views/reads on own story
+    &nbsp;
 
-    ->View/edit profile
+- [x] Follow/ unfollow user
+- [x] Subscribe/unsubscribe from topics/tags
+    &nbsp;
 
-    ->View/create/edit/delete list
-    ->Save story to list
-    ->Save other user's list
+- [x] View/edit profile
+    &nbsp;
 
-    ->View statistics on claps/views/stories
-    ->Ability to toggle between stat type as well as month
-	->Ability to adjust y-axis max/range
+- [x] View/create/edit/delete list
+- [x] Save story to list
+- [x] Save other user's list
+    &nbsp;
 
-    ->Real-time notifications
-    ->View notifications
-    ->Mark notification(s) as read
+- [x] View statistics on claps/views/stories
+- [x] Ability to toggle between stat type as well as month
+- [x] Ability to adjust y-axis max/range
+    &nbsp;
 
+- [x] Real-time notifications
+- [x] View notifications
+- [x] Mark notification(s) as read
+----------------------------------------------------------------
 
 ## How to run locally
 
-1. Create DB in MongoDB Atlas with following tables:
+1.  Create DB in MongoDB Atlas with following tables:
 
-   ->users,stories,views,reads, claps, comments,drafts, lists, notifications
+         ->users, stories, views, reads, claps, comments ,drafts, lists, notifications
 
-2. Create .env file in root folder containing following:
+2.  Create .env file in root folder containing following:
 
+        MONGO_URI = (your mongodb connection string)
 
-MONGO_URI = (your mongodb connection string)
+        JWT_KEY = (some string)
 
-JWT_KEY = (some string)
+        CLOUDINARY_CLOUD_NAME = (your cloudinary cred)
 
-CLOUDINARY_CLOUD_NAME = (your cloudinary cred)
+        CLOUDINARY_API_KEY= (your cloudinary cred)
 
-CLOUDINARY_API_KEY= (your cloudinary cred)
+        CLOUDINARY_SECRET_KEY= (your cloudinary cred)
 
-CLOUDINARY_SECRET_KEY= (your cloudinary cred)
+        PORT = 5001
 
-PORT = 5001
+        NODE_ENV= 'development'
 
-NODE_ENV= 'development'
+3.  Install dependencies.
 
+    > 'npm i' //in root folder,
 
+    > 'npm i --force' //in front end folder
 
-3. Run 'npm i' in root folder, and 'npm i --force' in front end folder
-	->reason for using the 'force' flag is because currently having some issues
-	with React versions
- 
-4. Unfortunately github does not allow us to push 'public' folders. We need this to upload files/images during creation/edit of resources. 
+    NOTE: The reason for using the 'force' flag is because currently having some issues with React versions
+    &nbsp;
 
-	->public/images/posts 
-	->public/images/users 
+4.  Create following folders to upload files/images during creation/edit of resources. Unfortunately github does not allow us to push 'public' folders.
 
-Once done, should look like this: 
+    > public/images/posts
+    > public/images/users
 
-	public/images
-	  >posts
-	  >users
- 
+Once done, should look like this:
+
+    public/images
+      >posts
+      >users
 
 5. Seed DB with following command in root directory:
-	
-	->'npm run data:import'
 
-6. Run 'npm run dev' in root folder to start both client and server concurrently
+   > 'npm run data:import'
+   > &nbsp;
+
+6. START our application!(runs both client and server concurrently)
+
+   > 'npm run dev' //in root folder
