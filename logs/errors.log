@@ -60,3 +60,5 @@
 {"level":"error","message":"Not authorized, token failed.","timestamp":"2023-11-27T19:40:28.199Z"}
 {"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-27T19:40:28.205Z"}
 {"level":"error","message":"The id enterred is not valid!","timestamp":"2023-11-27T19:40:28.216Z"}
+{"level":"error","message":"Not found - /main.b465dcee9a48742c65cc.hot-update.json","timestamp":"2023-11-27T20:10:42.830Z"}
+{"level":"error","message":"Not found - /main.b465dcee9a48742c65cc.hot-update.json","timestamp":"2023-11-27T20:10:43.836Z"}

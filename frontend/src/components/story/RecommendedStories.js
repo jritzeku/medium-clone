@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getRecommendedStoriesAction } from 'redux/slices/storySlices'
 
-import 'react-loading-skeleton/dist/skeleton.css'
+ 
 import { ClipLoader } from 'react-spinners'
 import Story from './Story'
 

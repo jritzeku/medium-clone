@@ -29,6 +29,7 @@ https://medium-clone-cxni.onrender.com
     ->Reply to comment (should be nested)
 
     ->Add/remove claps to story
+	->Prevent inflating own stats; cant clap or increment views/reads on own story
 
     ->Follow/ unfollow user
     ->Subscribe/unsubscribe from topics/tags
@@ -52,28 +53,36 @@ https://medium-clone-cxni.onrender.com
 
 1. Create DB in MongoDB Atlas with following tables:
 
-   ->users, tasks, projects
+   ->users,stories,views,reads, claps, comments,drafts, lists, notifications
 
 2. Create following .env file in root folder containing following:
 
----
+
 
 MONGO_URI = (your mongodb connection string)
 
 JWT_KEY = (some string)
 
-CLOUDINARY_CLOUD_NAME = (your cloudinary creds)
+CLOUDINARY_CLOUD_NAME = (your cloudinary cred)
 
-CLOUDINARY_API_KEY=
+CLOUDINARY_API_KEY= (your cloudinary cred)
 
-CLOUDINARY_SECRET_KEY=
+CLOUDINARY_SECRET_KEY= (your cloudinary cred)
 
 PORT = 5001
 
 NODE_ENV= 'development'
 
----
+
 
 3. Run 'npm i' in root folder, and 'npm i --force' in front end folder
+	->reason for using the 'force' flag is because currently having some issues
+	with React versions
+ 
 
-4. Run 'npm run dev' in root folder
+
+4. Seed DB with following command in root directory:
+	
+	->'npm run data:import'
+
+5. Run 'npm run dev' in root folder
