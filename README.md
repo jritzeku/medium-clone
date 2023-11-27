@@ -55,8 +55,7 @@ https://medium-clone-cxni.onrender.com
 
    ->users,stories,views,reads, claps, comments,drafts, lists, notifications
 
-2. Create following .env file in root folder containing following:
-
+2. Create .env file in root folder containing following:
 
 
 MONGO_URI = (your mongodb connection string)
@@ -79,10 +78,20 @@ NODE_ENV= 'development'
 	->reason for using the 'force' flag is because currently having some issues
 	with React versions
  
+4. Unfortunately github does not allow us to push 'public' folders. We need this to upload files/images during creation/edit of resources. 
 
+	->public/images/posts 
+	->public/images/users 
 
-4. Seed DB with following command in root directory:
+Once done, should look like this: 
+
+	public/images
+	  >posts
+	  >users
+ 
+
+5. Seed DB with following command in root directory:
 	
 	->'npm run data:import'
 
-5. Run 'npm run dev' in root folder
+6. Run 'npm run dev' in root folder to start both client and server concurrently
