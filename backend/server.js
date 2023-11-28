@@ -32,12 +32,10 @@ dotenv.config()
 
 const app = express()
 
-app.use(morgan('tiny', { stream: apiLogs }))
-
 connectDB()
 
 if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'))
+  app.use(morgan('tiny', { stream: apiLogs }))
 }
 
 app.use(express.json({ limit: '50mb' }))
@@ -58,10 +56,6 @@ if (process.env.NODE_ENV === 'production') {
   app.get('*', (req, res) =>
     res.sendFile(path.resolve(___dirname, 'frontend', 'build', 'index.html'))
   )
-} else {
-  // app.get('/', (req, res) => {
-  //   res.send('API is running....')
-  // })
 }
 
 app.use(notFoundMw)
