@@ -21,8 +21,6 @@ https://stackoverflow.com/questions/31025502/how-can-i-switch-word-wrap-on-and-o
 
 const users = [
   {
-    image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460703/mike_eonwq3.jpg',
     firstName: 'Mike',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -35,7 +33,7 @@ const users = [
   },
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460699/aiony-haust-3TLl_97HNJo-unsplash_ducjom.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682695031/users/jane_bxetkr.png',
     firstName: 'Jane',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -47,7 +45,8 @@ const users = [
   },
 
   {
-    
+    image:
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682695031/users/john_rauppo.jpg',
     firstName: 'John',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -61,7 +60,7 @@ const users = [
 
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460701/darren_dve03d.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694522/users/darren_nalpgw.jpg',
     firstName: 'Darren',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -74,7 +73,7 @@ const users = [
   //----------------------------------------------------------------
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460699/tom_qpkujx.jpg ',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694483/users/tom_joa88i.jpg',
     firstName: 'Tom',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -86,7 +85,7 @@ const users = [
   },
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460692/anna_su2zzx.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694519/users/anna_ma7ddb.jpg',
     firstName: 'Anna',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -98,7 +97,7 @@ const users = [
   },
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460693/sarah_meinfh.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694526/users/sarah_zvacjg.jpg',
     firstName: 'Sarah',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -110,7 +109,7 @@ const users = [
   },
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460696/phil_jpr0wo.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694521/users/phil_jx1pqu.jpg',
     firstName: 'Phil',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -125,7 +124,7 @@ const users = [
 
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460699/raj_sj5hjw.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694525/users/raj_tov8va.jpg',
     firstName: 'Raj',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -137,8 +136,6 @@ const users = [
   },
 
   {
-    image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460704/scott_uhyixt.jpg',
     firstName: 'Scott',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -151,7 +148,7 @@ const users = [
 
   {
     image:
-      'https://res.cloudinary.com/dwbv00lfo/image/upload/v1727460699/kim_renahi.jpg',
+      'https://res.cloudinary.com/dgmandmlc/image/upload/v1682694521/users/kim_ik7zyq.jpg',
     firstName: 'Kim',
     lastName: 'Doe',
     createdDate: new Date('3/1/2023'),
@@ -161,6 +158,8 @@ const users = [
     aboutMe:
       'Hi there! Im a lover of all things tech, so youll often find me coding and programming away during my free time. Buuuuut, when Im not buried in lines of code, Im out exploring this beautiful planet we live on. Its a never-ending adventure! And while Im traveling, I make sure to indulge in some of the local cuisine. Im a total foodie and love trying new dishes from around the world. So, lets connect and chat all things software, travel, and food!',
   },
+
+ 
 ]
 
 module.exports = users
