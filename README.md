@@ -9,7 +9,7 @@ This app is meant for learning/educational purposes only.
 This should cover most of the features/use cases.
 
  
-https://youtu.be/o8SE32O1qN8
+https://youtu.be/YbDFF0_9T54
 
 ## Deployed on render.com
 
